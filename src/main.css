@@ -6,3 +6,13 @@ body {
   font-size: 1.3rem;
   padding: 2rem;
 }
+
+button {
+  width: auto;
+  height: 2rem;
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+  font-size: 1rem;
+  color: rgb(29, 29, 29);
+  background-color: rgb(98, 220, 250);
+}
