@@ -1,0 +1,43 @@
+Unit Testing
+It is focused in small functionalities of your application
+For example, testing the seat belt of the c
+
+
+Integration Tests
+Tests that small component and its behavior with the rest of the components.
+For example, how the wheels behave with the rest of the component
+
+
+Characteristics of all tests
+1. Easy to write
+2. Easy to read
+3. Quick
+4. Trustable
+5. Mainly unit testing
+
+
+First start doing unit testing. Once they are tested correctly we run into Integration Tests.
+
+
+AAA Testing
+
+STAGE 1 - ARRANGE - SET UP THE INITIAL STATE
+- Init variables
+- Import required documents
+
+STAGE 2 - ACT - SET ACTIONS
+- Call methods
+- Simulate clicks
+- Do actions over stage no. 1
+
+STAGE 3 - ASSERT - OBSERVE THE RESULTING BEHAVIOR
+- Analyze the results
+- For example, something increasing its value or nothing changed
+
+
+TEST MYTHS & OTHERS
+- It helps preventing errors but does not avoids them entirely.
+- Tests can fail.
+- It does not make your app slower. It is not part of the production environment. It is set up only in development.
+- It is not a waste of time. We can test interactions with libraries but never test the libraries.
+- Always test the critical path of your application.
