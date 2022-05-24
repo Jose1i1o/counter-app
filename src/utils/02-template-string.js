@@ -2,10 +2,10 @@ const firstName   = 'Fernando';
 const surname = 'Herrera';
 
 const fullName = `${ firstName } ${ surname }`;
-console.log( fullName );
+// console.log( fullName );
 
-function cheers(fullName) {
-    return 'Hello ' + fullName;
+export function cheers(firstName = 'Lola') {
+    return 'Hello ' + firstName;
 }
 
-console.log( `Hello: ${ cheers( fullName )}`);
+// console.log( `Hello: ${ cheers( fullName )}`);
