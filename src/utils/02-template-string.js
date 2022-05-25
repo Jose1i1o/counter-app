@@ -4,8 +4,10 @@ const surname = 'Herrera';
 const fullName = `${ firstName } ${ surname }`;
 // console.log( fullName );
 
-export function cheers(firstName = 'Lola') {
+function cheers(firstName = 'Lola') {
     return 'Hello ' + firstName;
 }
+
+export default cheers;
 
 // console.log( `Hello: ${ cheers( fullName )}`);
