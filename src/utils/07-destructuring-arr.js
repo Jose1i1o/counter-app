@@ -1,5 +1,5 @@
-const characters = ['Darth Vader','Doctor Who','Obi One'];
-const [ , , hero3 ] = characters;
+// const characters = ['Darth Vader','Doctor Who','Obi One'];
+// const [ , , hero3 ] = characters;
 
 
 export const returnArrayPositions = () =>{

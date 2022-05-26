@@ -1,4 +1,4 @@
-import heroes from '../data/heroes';
+import heroes from '../data/heroes.js';
 
 export const getHeroById = (id) => heroes.find( (hero) => hero.id === id );
 

@@ -1,5 +1,5 @@
-const greetings = ( user ) => `Hola, ${ user }`;
-const greetings2 = () => `Hola Mundo`;
+// const greetings = ( user ) => `Hola, ${ user }`;
+// const greetings2 = () => `Hola Mundo`;
 
 
 const getUser = () => ({
