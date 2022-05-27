@@ -1,6 +1,6 @@
-import { getHeroById } from './bases/08-imp-exp'
+import { getHeroById } from './08-imp-exp';
 
-const getHeroByIdAsync = ( id ) => {
+export const getHeroByIdAsync = ( id ) => {
 
     return new Promise( (resolve, reject) => {
 
@@ -12,14 +12,7 @@ const getHeroByIdAsync = ( id ) => {
             } else {
                 reject( 'Your hero is not available. Run!' );
             }
-        }, 2000 )
+        }, 1500 )
     
     });
-
-
 }
-
-
-getHeroByIdAsync(1)
-    .then( console.log )
-    .catch( console.warn );
