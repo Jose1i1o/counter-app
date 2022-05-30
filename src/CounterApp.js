@@ -36,9 +36,9 @@ const CounterApp = ({ value = 0 }) => {
     <>
       <h1> Counter App </h1>
       <h2> { counter } </h2>
-      <button onClick={ handleAdd }>+</button> 
-      <button onClick={ handleDiff }>-</button>
-      <button onClick={ reset }>Reset</button>
+      <button data-testid="handleAdd" onClick={ handleAdd }>+</button> 
+      <button data-testid="handleDiff" onClick={ handleDiff }>-</button>
+      <button data-testid="reset" onClick={ reset }>Reset</button>
     </>
   )
 }

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <FirstComponent /> should show it correctly 1`] = ``
+<Fragment>
+  <h1>
+
+    My dog´s name is Lola
+
+  </h1>
+  <p>
+
+    This is a subtitle
+
+  </p>
+</Fragment>
+`;
