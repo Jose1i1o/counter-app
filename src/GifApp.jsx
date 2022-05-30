@@ -1,29 +1,18 @@
 import { useState } from "react";
+import AddCategory from "./components/AddCategory";
 
 const GifApp = () => {
 
-  // const categories = ['X-men', 'Dragon Ball', 'Star Trek'];
   const [ categories, setCategories ] = useState(['X-men', 'Dragon Ball', 'Star Trek']);
 
-  const handleAdd = () => {
-    // First do it with the push to see that it does not re-render the component
-    // categories.push('Wolverine');
-
-    // setCategories('Speedy Gonzalez');
-    // console.log(categories);
-
-    setCategories( category => [ ...category, 'Speedy Gonzalez'])
-    // setCategories([...categories, 'Speedy Gonzalez'])
-  }
-  // console.log(categories);
 
   return (
     <>
       <h2>
       🎁 GIFs App 🎁
       </h2>
+      <AddCategory />
       <hr />
-      <button onClick={ handleAdd }>Add</button>
       <ol>
         {
           // Here you can´t use "for" because it is not a cyclical structure (array) that returns a value
