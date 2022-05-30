@@ -11,7 +11,7 @@ const GifApp = () => {
       <h2>
       🎁 GIFs App 🎁
       </h2>
-      <AddCategory />
+      <AddCategory setCategories={ setCategories }/>
       <hr />
       <ol>
         {
