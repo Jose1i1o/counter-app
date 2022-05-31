@@ -1,10 +1,12 @@
 
 const GifGridItem = ({ id, title, url }) => {
-  console.log( id, title, url );
+  
   return (
     <>
-      <img src={ url } alt={ title } />
-      <p>{ title }</p>
+      <div className="card">
+        <img src={ url } alt={ title } className="card__image"/>
+        <p className="card__paragraph">{ title }</p>
+      </div>
     </>
   )
 }

@@ -5,3 +5,35 @@
 body {
   padding: 3rem;
 }
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.card__image {
+  width: auto;
+  height: 15rem;
+}
+
+.card__paragraph {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #999;
+  text-align: center;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}

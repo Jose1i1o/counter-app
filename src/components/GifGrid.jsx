@@ -3,8 +3,6 @@ import GifGridItem from "./GifGridItem";
 
 const GifGrid = ({ category }) => {
   
-  // const [counter, setCounter] = useState(0);
-
   const [ images, setImages ] = useState([]);
 
   useEffect(() => {
@@ -24,34 +22,22 @@ const GifGrid = ({ category }) => {
         url: img.images?.downsized_medium.url
       }
     })
-    // console.log(data);
-    // console.log(gifs);
     setImages( gifs )
   }
-  // getGifs();
 
   return (
     <>
       <h3>{ category }</h3>
-      {/* <ol> */}
-        {/* {
-         images.map(({ id, title }) => (
-           <li key={ id }>{ title }</li>
-         ))
-        } */}
-      {/* </ol> */}
+      <div className="card-grid">
         {
          images.map(img  => (
-           <GifGridItem 
+           <GifGridItem
               key={ img.id }
               { ...img }
            />
          ))
         }
-      
-      {/* Use this to show how this components renders each time the button is clicked until useEffect is used
-      <h3>{ counter }</h3>
-      <button onClick={() => setCounter(counter + 1)}>Add +1</button> */}
+      </div>
     </>
   )
 }
