@@ -9,10 +9,10 @@ const GifApp = () => {
   return (
     <>
       <h2>
-      🎁 GIFs App 🎁
+      🔎 Gifter <span className="title__subtitle">-The place to find all your gifs-</span>
       </h2>
       <AddCategory setCategories={ setCategories }/>
-      <hr />
+
         {
         categories.map( category =>
           <GifGrid

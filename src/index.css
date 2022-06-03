@@ -37,3 +37,8 @@ body {
   text-align: center;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
+
+.title__subtitle {
+  font-size: 0.75rem;
+  display: flex;
+}

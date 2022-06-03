@@ -26,5 +26,4 @@ const useFetchGifs = ( category ) => {
 
 }
 
-
 export default useFetchGifs;
