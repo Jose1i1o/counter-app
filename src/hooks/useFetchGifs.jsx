@@ -1,6 +1,6 @@
 // name it with use to indicate it is a hook
 import { useState, useEffect } from "react";
-import getGifs from "../../helpers/getGifs";
+import getGifs from "../helpers/getGifs";
 
 const useFetchGifs = ( category ) => {
 
