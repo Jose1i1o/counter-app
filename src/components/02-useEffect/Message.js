@@ -29,7 +29,8 @@ const Message = () => {
 
   return (
     <>
-      <h1>Lola (my dog) can do better</h1>
+      {/* <h1>Lola (my dog) can do better</h1> */}
+      <h1>Checkout your mouse coordinates</h1>
       <p> x: { x } y: { y } </p>
     </>
   )
