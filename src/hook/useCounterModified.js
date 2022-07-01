@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useCounterModified = ( initialState = 10 ) => {
+export const useCounterModified = ( initialState = 10 ) => {
 
   const [counter, setCounter] = useState(initialState);
 
@@ -24,5 +24,3 @@ const useCounterModified = ( initialState = 10 ) => {
   }
 
 }
-
-export default useCounterModified;
